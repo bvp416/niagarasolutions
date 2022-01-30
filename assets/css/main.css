@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url(all.min.css);
 
 /*
 	Hyperspace by HTML5 UP
@@ -160,6 +161,15 @@ textarea {
 }
 
 /* Basic */
+
+/* By - Himanshu */
+
+.learning_bullets {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* By - Himanshu */
 
 @-ms-viewport {
   width: device-width;
@@ -2318,6 +2328,10 @@ form {
   margin: 0 0 2em 0;
 }
 
+.form-area {
+  max-width: 50%;
+}
+
 form > :last-child {
   margin-bottom: 0;
 }
@@ -2630,7 +2644,7 @@ input[type='radio'] + label:before {
 }
 
 .wrapper.style1-alt .icon.major:before {
-  color: #493382;
+  color: #5e42a6;
 }
 
 .wrapper.style2 .icon.major:before {
@@ -3133,7 +3147,7 @@ body.is-ie .spotlights > section {
   -ms-justify-content: center;
   justify-content: center;
   width: 50em;
-  -ms-flex: 1;
+  /* -ms-flex: 1; */
 }
 
 .spotlights > section > .content > .inner {
@@ -3313,7 +3327,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #0a7540;
+  background-color: #5e42a6;
 }
 
 .wrapper.style1-alt {
@@ -3826,14 +3840,14 @@ body.is-ie #sidebar > .inner {
 
 #sidebar nav a:after {
   background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
-  -moz-transition: max-width 0.2s ease;
-  -webkit-transition: max-width 0.2s ease;
-  -ms-transition: max-width 0.2s ease;
-  transition: max-width 0.2s ease;
-  max-width: 0;
+				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				-moz-transition: max-width 0.2s ease;
+				-webkit-transition: max-width 0.2s ease;
+				-ms-transition: max-width 0.2s ease;
+				transition: max-width 0.2s ease;
+				max-width: 0;
 }
 
 #sidebar nav a:hover {
