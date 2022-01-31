@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url(all.min.css);
+@import url('http://fonts.cdnfonts.com/css/speed-phreak');
 
 /*
 	Hyperspace by HTML5 UP
@@ -2328,9 +2329,6 @@ form {
   margin: 0 0 2em 0;
 }
 
-.form-area {
-  max-width: 50%;
-}
 
 form > :last-child {
   margin-bottom: 0;
@@ -2894,6 +2892,9 @@ ul.actions.fit.stacked {
 
 ul.contact {
   list-style: none;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
   padding: 0;
 }
 
