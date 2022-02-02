@@ -2898,12 +2898,14 @@ ul.actions.fit.stacked {
 
 /* Contact */
 
-ul.contact {
-  list-style: none;
+.contact {
   display: flex;
+  justify-content: flex-start;
   margin: auto;
-  justify-content: space-around;
-  padding: 0;
+}
+
+.contact > div {
+  margin: 30px;
 }
 
 ul.contact > li {
