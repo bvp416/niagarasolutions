@@ -7,6 +7,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* @font-face {
+    font-family: 'speed_phreak_extra-condensXCn';
+    src: url('../webfonts/speedphreakxtracond-webfont.woff2') format('woff2'),
+         url('../webfonts/speedphreakxtracond-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
 @font-face {
     font-family: 'speed_phreak_extra-condensXCn';
     src: url('../webfonts/speedphreakxtracond-webfont.woff2') format('woff2'),
@@ -221,7 +230,7 @@ html {
 }
 
 body {
-  background: #2B7A7B;
+  background: #326682;
 }
 
 body.is-preload *,
@@ -340,10 +349,10 @@ h1.major {
 }
 
 h1.major:after {
-  background-image: -moz-linear-gradient(to right, #3aafa9, #5FC8C4);
-  background-image: -webkit-linear-gradient(to right, #3aafa9, #5FC8C4);
-  background-image: -ms-linear-gradient(to right, #3aafa9, #5FC8C4);
-  background-image: linear-gradient(to right, #3aafa9, #5FC8C4);
+  background-image: -moz-linear-gradient(to right, #428CB3, #66A8CC);
+  background-image: -webkit-linear-gradient(to right, #428CB3, #66A8CC);
+  background-image: -ms-linear-gradient(to right, #428CB3, #66A8CC);
+  background-image: linear-gradient(to right, #428CB3, #66A8CC);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -2046,7 +2055,7 @@ input[type='button'].primary,
 button.primary,
 .button.primary {
   background-color: #ffffff;
-  color: #2B7A7B !important;
+  color: #326682 !important;
 }
 
 input[type='submit'].primary:after,
@@ -2481,7 +2490,7 @@ select {
 
 select option {
   color: #ffffff;
-  background: #2B7A7B;
+  background: #326682;
 }
 
 select:focus::-ms-value {
@@ -2569,7 +2578,7 @@ input[type='checkbox']:checked + label:before,
 input[type='radio']:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
-  color: #5FC8C4;
+  color: #66A8CC;
   content: '\f00c';
 }
 
@@ -2650,7 +2659,7 @@ input[type='radio'] + label:before {
   display: block;
   background: #ffffff;
   border-radius: 100%;
-  color: #2B7A7B;
+  color: #326682;
   text-align: center;
   line-height: 2.5em;
   margin: 0 0 1.3em 0;
@@ -2661,23 +2670,23 @@ input[type='radio'] + label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-  color: #3aafa9;
+  color: #428CB3;
 }
 
 .wrapper.style1-alt .icon.major:before {
-  color: #3aafa9;
+  color: #428CB3;
 }
 
 .wrapper.style2 .icon.major:before {
-  color: #17252a;
+  color: #17242A;
 }
 
 .wrapper.style2-alt .icon.major:before {
-  color: #3A646E;
+  color: #3D5F71;
 }
 
 .wrapper.style3 .icon.major:before {
-  color: #5FC8C4;
+  color: #66A8CC;
 }
 
 .wrapper.style3-alt .icon.major:before {
@@ -3353,23 +3362,23 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #3aafa9;
+  background-color: #428CB3;
 }
 
 .wrapper.style1-alt {
-  background-color: #112d32;
+  background-color: #132834;
 }
 
 .wrapper.style2 {
-  background-color: #17252a;
+  background-color: #17242A;
 }
 
 .wrapper.style2-alt {
-  background-color: #3A646E;
+  background-color: #3D5F71;
 }
 
 .wrapper.style3 {
-  background-color: #5FC8C4;
+  background-color: #66A8CC;
 }
 
 .wrapper.style3-alt {
@@ -3479,7 +3488,7 @@ body.is-preload .wrapper.fade > .inner {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #3aafa9;
+  background-color: #428CB3;
   cursor: default;
   padding: 1.75em 2em;
 }
@@ -3623,7 +3632,7 @@ body.is-preload .wrapper.fade > .inner {
 
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
-  background: #2B7A7B;
+  background: #326682;
   cursor: default;
   height: 100vh;
   left: 0;
@@ -3865,10 +3874,10 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:after {
-  background-image: -moz-linear-gradient(to right, #3aafa9, #5FC8C4);
-				background-image: -webkit-linear-gradient(to right, #3aafa9, #5FC8C4);
-				background-image: -ms-linear-gradient(to right, #3aafa9, #5FC8C4);
-				background-image: linear-gradient(to right, #3aafa9, #5FC8C4);
+  background-image: -moz-linear-gradient(to right, #428CB3, #66A8CC);
+				background-image: -webkit-linear-gradient(to right, #428CB3, #66A8CC);
+				background-image: -ms-linear-gradient(to right, #428CB3, #66A8CC);
+				background-image: linear-gradient(to right, #428CB3, #66A8CC);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3956,7 +3965,7 @@ body.is-preload #sidebar nav ul li {
 
   #sidebar nav a:after {
     background-image: none;
-    background-color: #5FC8C4;
+    background-color: #66A8CC;
   }
 }
 
