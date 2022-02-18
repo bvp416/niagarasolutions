@@ -25,6 +25,15 @@
 
 }
 
+@font-face {
+    font-family: 'code_pro_demoregular';
+    src: url('code_pro_demo-webfont.woff2') format('woff2'),
+         url('code_pro_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .white-flex-box > ul {
   display: flex;
   flex-direction: row;
