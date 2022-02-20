@@ -34,6 +34,15 @@
 
 }
 
+.inner > img {
+  max-width: fit-content;
+  border: 2px solid #fff;
+  padding: 30px;
+  border-radius: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .flex-one {
   display: flexbox;
   flex-wrap: wrap;
@@ -41,19 +50,12 @@
   margin-bottom: 2em;
 }
 
-.certi {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.certi img {
-  max-width: 150px;
-  margin: 50px;
-}
-
 .heading {
   font-size: 4em;
+}
+
+.inner .certi img {
+  max-width: 100%;
 }
 
 .white-flex-box > ul {
@@ -3211,6 +3213,7 @@ body.is-ie .spotlights > section {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
+  width: 50em;
   /* -ms-flex: 1; */
 }
 
@@ -3399,7 +3402,7 @@ table.alt tfoot {
 }
 
 .wrapper.style2 {
-  background-color: #fff;
+  background-color: #17242A;
 }
 
 .wrapper.style2-alt {
@@ -4036,9 +4039,11 @@ body.is-preload #sidebar nav ul li {
   }
 }
 
-@media screen and (max-width: 480px) {
-  .certi img {
-    max-width: 75px;
-    margin: 15px;
-  }
+@media screen and (max-width: 1280px) {
+  #logo {
+  max-width: 30px;
+  border: none;
+  margin-right: 20%;
+  padding: 0;
+}
 }
