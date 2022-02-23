@@ -1,37 +1,64 @@
 @import url(fontawesome-all.min.css);
 @import url(all.min.css);
 
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* @font-face {
-    font-family: 'speed_phreak_extra-condensXCn';
-    src: url('../webfonts/speedphreakxtracond-webfont.woff2') format('woff2'),
-         url('../webfonts/speedphreakxtracond-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-} */
-
 @font-face {
-    font-family: 'speed_phreak_extra-condensXCn';
-    src: url('../webfonts/speedphreakxtracond-webfont.woff2') format('woff2'),
-         url('../webfonts/speedphreakxtracond-webfont.woff') format('woff');
+    font-family: 'telegraficoregular';
+    src: url('telegrafico-webfont.woff2') format('woff2'),
+         url('telegrafico-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
-@font-face {
-    font-family: 'code_pro_demoregular';
-    src: url('code_pro_demo-webfont.woff2') format('woff2'),
-         url('code_pro_demo-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.container-desc {
+  display: flex;
+  flex-direction: column;
+}
 
+.desc-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.desc-head {
+  font-size: 2em;
+}
+
+.desc-detail {
+  margin: 0 0 0 100px;
+  max-width: 500px;
 }
 
 .inner > img {
@@ -46,6 +73,9 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  color: #17242a;
+  font-size: x-large;
+  font-weight: 700;
   justify-content: space-between;
 }
 
@@ -54,16 +84,6 @@
   margin: 30px 0;
 }
 
-.flex-one {
-  display: flexbox;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-bottom: 2em;
-}
-
-.heading {
-  font-size: 4em;
-}
 
 .inner .certi img {
   max-width: 100%;
