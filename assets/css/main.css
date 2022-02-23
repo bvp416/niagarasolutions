@@ -37,21 +37,21 @@
 .inner > img {
   max-width: fit-content;
   border: 1px solid #fff;
-  padding: 30px;
-  margin-top: auto;
-  margin-bottom: auto;
+  padding: 20px;
+  margin: auto 50px;
 }
 
 #client {
   display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #client img {
-  max-width: 100%;
-  margin: 50px;
+  width: 15%;
+  margin: 30px 0;
 }
 
 .flex-one {
@@ -67,6 +67,10 @@
 
 .inner .certi img {
   max-width: 100%;
+}
+
+.style4 h2 {
+  text-align: center;
 }
 
 .white-flex-box > ul {
